@@ -1,10 +1,10 @@
-#ifndef _HEADER_H_
-#define _HEADER_H_
+#ifndef _SHELL_H_
+#define _SHELL_H_
 
 /*
  * File: shell.h
- * Authors: tewodros awedew
- *          messi zewdi
+ * Authors: cynthia kio
+ *          obi okoye
  */
 
 #include <fcntl.h>
@@ -138,4 +138,5 @@ void help_unsetenv(void);
 void help_history(void);
 
 int proc_file_commands(char *file_path, int *exe_ret);
-#endif /* _HEADER_H_ */
+#endif /* _SHELL_H_ */
+
